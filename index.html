@@ -1,135 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Weihuang Wong</title>
-
+    <link rel="stylesheet" href="css/style.css">
     <a rel="me" href="https://mastodon.social/@weihuang"></a>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <img src="img/headshot.jpg" alt="Weihuang Wong" class="headshot">
+            <h1>Weihuang Wong</h1>
+            <p class="title">Principal Data Scientist</p>
+        </header>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/wwh.css" rel="stylesheet">
+        <section class="intro">
+            <p>I lead data science teams at NORC at the University of Chicago, developing tools and processes to enhance researcher productivity, data quality, and analytic reproducibility across large-scale surveys in health and education. My work spans the entire data lifecycle—from sampling frame construction to synthetic data generation to program evaluation.</p>
+        </section>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+        <section class="projects">
+            <h2>Selected Projects</h2>
 
-    <div class="container">
-      <div class="header clearfix">
-        <h2 class="text-muted">Weihuang Wong</h2>
-        <hr>
-      </div> 
-
-	<div class="container">
-    <div class="row">             
-        <div class="col-md-9">
-            <p class="lead">I am a data scientist at NORC at the University of Chicago, where I work on social research in the education and public sectors. I earned my Ph.D. at MIT, where my research focused on political behavior as it relates to housing markets.</p>
-
-            <h3>Research</h3><hr>
-
-            <div class="row">
-                <div class="col-md-3"><img src="img/displace.jpg" class="img-responsive" style="margin-top: 15px;">
-                </div>
-                <div class="col-md-9"><h4>Our Town: Support for Housing Growth When Localism Meets Liberalism</h4>
-                    <p>Community resistance to new housing is a cause of housing supply shortfalls in cities around the United States. Citizens differ on the desirable rate and nature of housing growth. I argue that two types of political beliefs shape support for housing growth. Localism is the belief that the interests of established members of the local community should be privileged relative to those of newcomers and outsiders. Liberalism is the belief that economic outcomes should be equitable. I draw on an original survey experiment and rich observational data on land use ballot measures in San Francisco to show that liberals' support for housing growth is moderated by the type of housing being produced.  Localism, on the other hand, is negatively associated with support for housing growth, regardless of the type of development being proposed.</p>
-                    <p><a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3173813">Working Paper</a>
-                    <br>
-                </div>
+            <div class="project">
+                <h3>National Survey of Early Care and Education</h3>
+                <p class="period">2018–present</p>
+                <p>A nationally representative study characterizing the use and availability of early care and education in the United States. I direct quality assurance activities, lead data archiving efforts, and manage the NSECE Data Desk supporting public-use and restricted-use data files for the research community.</p>
             </div>
 
-            <div class="row">
-            	<div class="col-md-3"><img src="img/brownstone.jpg" class="img-responsive" style="margin-top: 15px;">
-            	</div>
-            	<div class="col-md-9"><h4>The American Dream and Support for the Social Safety Net</h4>
-            		<p>I propose the status quo bias hypothesis, which predicts that housing wealth increases preference for status quo arrangements with respect to Social Security. I contrast the status quo bias hypothesis with the claim that housing wealth reduces support for social insurance, and test the hypothesis using an original survey experiment and observational data from the 2000-2004 ANES panel. The evidence suggests that housing wealth's conservatizing effect should be interpreted as a status quo preference, rather than opposition to redistributive social policies.</p>
-                    <p><a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3173814">Working Paper</a>
-                    <br>
-            	</div>
+            <div class="project">
+                <h3>Healthcare Cost and Utilization Project</h3>
+                <p class="period">2023–present</p>
+                <p>The largest collection of longitudinal hospital care data in the United States. I lead a team of analysts performing analyses for online query tables, interface with data partners to solicit consent for data inclusion, and make recommendations for new data tools serving public health researchers.</p>
             </div>
 
-            <div class="row"> <div class="col-md-3"><img
-              src="img/container.jpg" class="img-responsive"
-              style="margin-top: 15px;"> </div> <div
-              class="col-md-9"><h4>Trade Liberalization and Regime
-              Type: Evidence from a New Tariff-line Dataset
-              </h4><small>with In Song Kim and Soubhik Barari</small>
-              <p>  How does democracy shape trade policies? We
-              collect 5.7 billion observations of applied tariff
-              rates that 136 countries apply to their trading
-              partners.  We then develop a Bayesian multilevel
-              estimator that distinguishes the effects of regime type
-              across industries and trading partners. We find that
-              democracies tend to have lower trade barriers than
-              non-democracies but are more likely to protect their
-              agricultural sectors. Pairs of democracies achieve
-              greater tariff reductions than dyads with a democracy and a
-              non-democracy because of shallower concessions granted
-              by non-democratic importers to their democratic
-              partners</p> <p><a href =
-              "poltrade.pdf">Working Paper</a> <br> </div> </div>
-
-<!--             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-9"><h4>Intra-industry Trade and Trade Liberalization: Evidence from Preferential Tariffs Data</h4><small>with In Song Kim</small>
-                    <p>Does exchanging similar products within the same industry facilitate trade liberalization? To answer this question, we construct a large scale database with more than 300 million observations that links partner specific trade volumes to preferential tariffs rates for each HS6 product. We find strong effects of intra-industry trade on trade liberalization. The effect is especially pronounced for industries with high variation in tariffs. We then focus on the free trade agreement between the U.S. and Korea where more than 60% of products are exported (and imported) by both countries. We find that products with higher levels of two-way trade prior to the agreement enjoyed more reduction of tariffs deviating from the baseline MFN rates.</p>
-                    <p>APSA 2015: <a href = "iit.pdf">Paper</a>
-                    <br>
-                </div>                  
-            </div> -->
-
-        <h3>Software</h3><hr>
-
-        <div class="row">
-            <div class="col-md-3"><img src="img/mediation.jpg" class="img-responsive" style="margin-top: 15px;">
+            <div class="project">
+                <h3>Synthetic Healthcare Data for Research</h3>
+                <p class="period">2019–2021</p>
+                <p>A nationally representative all-payer claims dataset that protects privacy through synthetization of sensitive values. I researched and implemented machine learning methods for healthcare data synthesis and led the implementation team developing this novel data product for population health research.</p>
             </div>
-            <div class="col-md-9"><h4>mediation: R package for causal mediation analysis</h4>
-                <p>Enhancements to the <a href = "https://cran.r-project.org/web/packages/mediation/index.html"><tt>mediation</tt> package</a> (Imai, Hirose, Keele, Tingley, and Yamamoto 2017). I implement parallelization for resampling-based uncertainty estimates and a two-stage least squares method for estimating causal mediation effects.</p>
-                <p><a href = "https://github.com/weihuangwong/mediation">Github repo</a></p>
-                <br>
+
+            <div class="project">
+                <h3>Survey of Doctorate Recipients</h3>
+                <p class="period">2018–2019, 2023–present</p>
+                <p>A longitudinal study of individuals with U.S. research doctoral degrees in science, engineering, and health fields. I develop automated workflows for data processing, design data monitoring dashboards, and conduct research on adaptive design and nonresponse bias.</p>
             </div>
-        </div>
+        </section>
 
-        <div class="row">
-            <div class="col-md-3">
-            </div>
-            <div class="col-md-9"><h4>multitestr: R package for multiple hypothesis testing</h4>
-                <small>with F. Daniel Hidalgo</small>
-                <p>An implementation of Westfall and Young's (1993) free step-down method to adjust p-values in resampling-based multiple testing.</p>
-                <p><a href = "https://github.mit.edu/wwong/multitestr">Github repo</a> (requires MIT Touchstone authentication)</p>
-                <br>
-            </div>
-        </div>
+        <section class="background">
+            <h2>Background</h2>
+            <p>I joined NORC at the University of Chicago in 2018, where I have worked on social research in education, health, and transportation. I earned my Ph.D. in Political Science from MIT, where my research focused on political behavior and housing markets. Prior to graduate school, I managed a global portfolio of fixed income investments for a sovereign wealth fund. I hold a B.A. in Political Science and Economics from Stanford University.</p>
+        </section>
 
-        </div> <!-- /col-md-9 -->
-
-	    <div class="col-md-3">
-	    	<img src="img/WeihuangWong.png" class="img-responsive" style="margin-bottom: 10px;">
-	        <div>I'm a senior data scientist at <a href = "http://www.norc.org/Pages/default.aspx">NORC at the University of Chicago</a>.  I earned my Ph.D. in the Department of <a href="http://web.mit.edu/polisci/">Political Science</a> at
-	        <a href="http://www.mit.edu/">MIT</a>, where I was a member of the <a href = "http://pmlab.mit.edu/">Political Methodology Lab</a>. Prior to MIT, I worked in the Credit Markets Group at <a href="http://www.gic.com.sg/">GIC</a>. I earned a B.A. in Political Science and Economics from <a href="http://www.stanford.edu/">Stanford University</a>.</div>
-
-		    <hr>
-
-            <div><a href="mailto:weihuang.wong@gmail.com">weihuang.wong@gmail.com</a></div>
-            <div><a href="cv_wong.pdf">Curriculum Vitae</a></div>
-            <div>Github: <a href="https://github.com/weihuangwong">weihuangwong</a></div>
-            <div><a href = "https://stackoverflow.com/users/6455166/weihuang-wong">Stack Overflow</a></div>
-
-		</div> <!-- /col-md-3 -->
-    </div>
-	</div> <!-- container -->
-		
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>
+                <a href="mailto:weihuang.wong@gmail.com">weihuang.wong@gmail.com</a><br>
+                <a href="cv_wong.pdf">Curriculum Vitae</a><br>
+                <a href="https://github.com/weihuangwong">GitHub</a><br>
+                <a href="https://stackoverflow.com/users/6455166/weihuang-wong">Stack Overflow</a><br>
+                <a href="research.html">Academic Research</a>
+            </p>
+        </section>
+    </main>
+</body>
 </html>
